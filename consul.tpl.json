@@ -6,7 +6,6 @@
     },
     "service": {
         "name": "${CONSUL_SERVICE_NAME:-neo4j}",
-        "port": 8086,
         "check": {
             "http": "http://localhost:7474",
             "interval": "10s"
